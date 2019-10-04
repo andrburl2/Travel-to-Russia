@@ -1,0 +1,15 @@
+@import url("./lead__figure-image.css");
+@import url("./lead__figure-caption.css");
+
+.lead__figure {
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .lead__figure {
+      width: 100%;
+   }
+}

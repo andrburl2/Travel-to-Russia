@@ -1,0 +1,14 @@
+.video__container {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .video__container {
+        flex-direction: column;
+        align-items: center;
+        max-width: calc(100%-32px);
+        padding: 0 16px;
+    }
+}

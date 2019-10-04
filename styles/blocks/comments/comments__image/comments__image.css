@@ -1,0 +1,10 @@
+.comments__image {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__image {
+        margin: 0 0 16px;
+    }
+}

@@ -1,0 +1,17 @@
+.comments__quote-author {
+    width: 100%;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__quote-author {
+        order: 1;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        margin: 0 0 24px;
+    }
+}

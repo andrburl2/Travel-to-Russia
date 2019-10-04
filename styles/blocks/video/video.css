@@ -1,0 +1,30 @@
+@import url("video__container/video__container.css");
+@import url("video__item/video__item.css");
+@import url("video__duration/video__duration.css");
+@import url("video__title/video__title.css");
+@import url("video__subtitle/video__subtitle.css");
+@import url("video__image/video__image.css");
+
+.video {
+    width: 100%;
+    margin: 100px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        max-width: 929px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video {
+        max-width: 600px;
+        margin: 60px auto 0;
+    }
+}

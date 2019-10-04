@@ -1,0 +1,44 @@
+@import url("../styles/vendor/fonts/Inter/inter.css");
+@import url("../styles/blocks/body/body.css");
+@import url("../styles/blocks/header/header.css");
+    @import url("../styles/blocks/header/header__link/header__link_active.css");
+@import url("../styles/blocks/content/content.css");
+@import url("../styles/blocks/content/content-title.css");
+@import url("../styles/blocks/content/content-subtitle.css");
+@import url("../styles/blocks/lead/lead.css");
+@import url("../styles/blocks/intro/intro.css");
+@import url("../styles/blocks/photo-grid/photo-grid.css");
+@import url("../styles/blocks/places/places.css");
+@import url("../styles/blocks/video/video.css");
+    @import url("../styles/blocks/video/video__icon/icon_type/video__icon_type_play.css");
+@import url("../styles/blocks/comments/comments.css");
+@import url("../styles/blocks/cover/cover.css");
+@import url("../styles/blocks/footer/footer.css");
+
+.page {
+    max-width: 1184px;
+    color: #FFF;
+    margin: 0 auto;
+    font-family: Inter, Arial,  sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page {
+        max-width: 425px;
+    }
+}
