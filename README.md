@@ -1,2 +1,2 @@
-Travelling across Russia<tr>
+Travelling across Russia
 Проект для Яндекс Практикум
