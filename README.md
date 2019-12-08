@@ -1,2 +1,2 @@
-# https://andrburl2.github.io
 Travelling across Russia
+Проект для Яндекс Практикум
